@@ -3,4 +3,5 @@
 This is our project for the hackathon XHacks 2021.
 This project will be submitted in the Rookie Track.
 
-Idea: Zoom API that tracks if a student is present in class/paying attention based on if their camera is on and they are in camera view.
+Idea: Attendance checker that quickly and efficiently allows administrators, such as teachers, to view the attendance as well 
+as duration of the participants, on a Zoom call.

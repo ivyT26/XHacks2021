@@ -1,4 +1,28 @@
 .fileForm {
-  display: flex;
-  justify-items: center;
+  display: grid;
+  grid-row: 1 / 2;
+  padding: 0px;
+  margin: 0px;
+  //grid-template-columns: auto auto auto auto;
+}
+
+.image {
+  width: 45%;
+  height: 45%;
+  left: 10%;
+  position: relative;
+  top: 40%;
+  object-fit: contain; 
+  grid-row: 1 / 2;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

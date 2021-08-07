@@ -48,7 +48,7 @@ for i in range(len(class_list)):
   else:
     class_list["Present"][i] = 0
 
-#Sorting dataframe based on duration
+#Sorting dataframe based on duration length
 class_list = class_list.sort_values(by=["Duration (Min)"])
 
 #View results

@@ -3,8 +3,7 @@
 This is our project for the hackathon XHacks 2021.
 This project will be submitted in the Rookie Track.
 
-Idea: Attendance checker that quickly and efficiently allows administrators, such as teachers, to view the attendance as well 
-as duration of the participants, on a Zoom call.
+The COVID19 pandemic has forced the shift to online learning. Despite the current meeting platforms’ features, attendance is difficult to track. However, our software easily does the job for teachers!
 
 Resources:
 - https://www.canva.com/design/DAEmdDqQaAk/suoFRtUTxqG4w2AYuVfp3Q/edit

@@ -3,7 +3,7 @@ This python script analyzes two datasets and quickly allows administrators
 to view the attendance as well as duration of the participants.
 """
 
-#Importing pandas library
+#Importing the pandas library
 import pandas as pd
 
 #Importing system libraries

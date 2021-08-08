@@ -73,6 +73,10 @@ for i in range(len(class_list)):
     missing_count += 1
     print(f"{missing_count}. {class_list.loc[i][0]}")
 
+#Check if no students were missing
+if missing_count == 0:
+  print("N/A - Full Attendance!")
+
 print("\n\tOverall Summary:")
 print(class_list.to_string(index=False))
 print("\n")

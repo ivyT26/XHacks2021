@@ -1,28 +1,73 @@
+
 .fileForm {
   display: grid;
-  grid-row: 1 / 2;
+  justify-content: center;
+  grid-template-columns: 20% 30%;
+  /* grid-template-columns: minmax(0, 1fr) 10%; */
   padding: 0px;
   margin: 0px;
-  //grid-template-columns: auto auto auto auto;
+  /* grid-template-columns: auto auto auto auto; */
+}
+
+.fileForm div{
+  padding: 2%;
+}
+
+.fileForm div:nth-child(even) {
+  margin-top: 10%;
+}
+
+.fileForm div:last-child {
+  text-align: center;
+  /* for element to span two boxes horizontally, need to extend number of columns to span */
+  grid-column: 1 / span 2; 
+  
 }
 
 .image {
-  width: 45%;
-  height: 45%;
-  left: 10%;
-  position: relative;
-  top: 40%;
+  /* code to help with centering images: https://www.w3schools.com/howto/howto_css_image_center.asp */
+  /* display: block;
+  margin: auto; */
+  width: 55%;
+  /* height: 55%; */
+  /* left: 10%; */
+  /* position: relative;
+  top: 30%; */
   object-fit: contain; 
-  grid-row: 1 / 2;
+}
+
+p {
+  text-align: center;
+}
+
+.results {
+   width: 85%;
 }
 
 h1 {
   text-align: center;
+  padding: 10px;
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   background-image: url('background.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  padding: 20px;
+}
+h2{
+  text-align: center;
+}
+.return{
+position: fixed;
+bottom: 1px;
+left: 10px;
 }

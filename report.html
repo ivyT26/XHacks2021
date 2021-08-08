@@ -1,25 +1,37 @@
+
+  
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>repl.it</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Open+Sans&display=swap');
+  </style>
 </head>
 
 <body>
-  <h1>ATTENDANCE4CLASS</h1>
-	<h2>Attendance Summary Report: Class 1</h2>
+	<h1>ATTENDANCE4CLASS</h1>
+	<h2><u>Attendance Summary Report</u></h2>
 	<!-- Button below to go back to page if needed to check on attendance for another day or teacher -->
+	<div class = "row">
+    <div class ="column">
+    <img src="summary.png" alt="Attendance Report" class="results">
+    </div>
+    <div class = "column">
+    <img src="graph.png" alt="Attendance Graph" class="results">
+    </div>
+  </div>
   <div>
     <a href="/index.html">
-    <button type="button">Back to Main Page</button>
+    <button type="button" class ="return">Back to Main Page</button>
     </a>
   </div>
 
-</body>
-<script src="sample.py">
-</script>
+  <script src="AttendanceChecker.py"></script>
 
+</body>
 </html>

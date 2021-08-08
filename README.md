@@ -5,5 +5,5 @@ This project will be submitted in the Rookie Track.
 
 The COVID19 pandemic has forced the shift to online learning. Despite the current meeting platforms’ features, attendance is difficult to track. However, our software easily does the job for teachers!
 
-Resources:
-- https://www.canva.com/design/DAEmdDqQaAk/suoFRtUTxqG4w2AYuVfp3Q/edit
+Credit:
+- Canva template for inspiration.
